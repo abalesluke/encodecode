@@ -14,6 +14,7 @@ def encode(ui):
 			msg_all+=charz
 	return msg_all
 
-while True:
-	ui = input("\nEnter msg to Encode/Decode: ")
-	print('Result: '+encode(ui))
+if __name__ == "__main__":
+	while True:
+		ui = input("\nEnter msg to Encode/Decode: ")
+		print('Result: '+encode(ui))
